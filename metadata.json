@@ -1,0 +1,5 @@
+{
+  "name": "DanceFire Manager",
+  "description": "Sistema de gestión para DanceFire: Pagos con recargos, control de asistencias y evaluación de becas por IA.",
+  "requestFramePermissions": []
+}
