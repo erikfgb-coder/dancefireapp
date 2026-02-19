@@ -2,7 +2,7 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import { Student, AttendanceRecord, AttendanceStatus, PaymentRecord } from "./types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || '' });
+const ai = new GoogleGenAI({ apiKey: import.meta.env.ITE_API_KEY });
 
 export const evaluateScholarships = async (
   students: Student[],
